@@ -1,0 +1,23 @@
+{
+    "name": "sihe/true-random",
+    "description": "Interface for getting random data from random.org",
+    "keywords": ["true random","sihe"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "type": "library",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5"
+    },
+    "authors": [
+        {
+            "name": "Zhang Zuoming",
+            "email": "1611729317@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sihe\\trueRandom\\": ""
+        }
+    }
+}
